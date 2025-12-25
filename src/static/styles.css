@@ -142,3 +142,44 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participants list: remove bullets and add delete button styling */
+.participants {
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.participant {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.participant .email {
+  color: #333;
+  word-break: break-all;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background: #ffebee;
+}
+
+.participants-container h5 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 14px;
+}
